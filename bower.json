@@ -26,6 +26,7 @@
     "tests"
   ],
   "dependencies": {
-    "cssrefresh": "http://cssrefresh.frebsite.nl/js/cssrefresh.js"
+    "cssrefresh": "http://cssrefresh.frebsite.nl/js/cssrefresh.js",
+	"blankslate": "https://github.com/Flowdeeps/blankslate.git"
   }
 }
