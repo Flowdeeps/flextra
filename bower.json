@@ -1,6 +1,6 @@
 {
   "name": "boilerplate",
-  "description": "My standard web project boilerplate",
+  "description": "A lightweight simple flex based css library",
   "main": "index.html",
   "authors": [
     "Pete Haughie pete@republicofpete.net"
@@ -9,14 +9,11 @@
   "keywords": [
     "HTML",
     "LESS",
-    "Grunt",
-    "watch",
     "CSS",
-    "async",
-    "boilerplate",
-    "bootstrap"
+    "flex",
+    "flexbox"
   ],
-  "homepage": "https://github.com/Flowdeeps/boilerplate",
+  "homepage": "https://github.com/Flowdeeps/flextra",
   "private": true,
   "ignore": [
     "**/.*",
@@ -27,6 +24,6 @@
   ],
   "dependencies": {
     "cssrefresh": "http://cssrefresh.frebsite.nl/js/cssrefresh.js",
-	"blankslate": "https://github.com/Flowdeeps/blankslate.git"
+    "blankslate": "https://github.com/Flowdeeps/blankslate.git"
   }
 }
