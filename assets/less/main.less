@@ -1,1 +1,73 @@
 @import url("../bower_components/Blankslate/reset.less");
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Sans-Serif;
+}
+
+h1 {
+  position: absolute;
+  z-index: 1;
+  margin: 20px 30px 0;
+  padding: 10px 20px;
+  background: yellow;
+  color: black;
+  font-weight: bold;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+.flex {
+  display: flex;
+  &.vertical {
+    flex-direction: column; // default is row so we don't need to specify it
+    .centre,
+    .center {
+      flex-direction: column;
+      display: flex;
+      flex: 1;
+      &::before {
+        display: flex;
+        flex: 1;
+        content: ".";
+        color: transparent;
+      }
+      &::after {
+        display: flex;
+        flex: 1;
+        content: ".";
+        color: transparent;
+      }
+    }
+  }
+  > div,
+  > article {
+    display: flex;
+    flex: 1;
+    position: relative;
+    &:nth-of-type(1){
+      background: #333;
+    }
+    &:nth-of-type(2){
+      background: #666;
+    }
+    &:nth-of-type(3){
+      background: #999;
+    }
+  }
+}
+
+h3 {
+  text-align: center;
+  width: 100%;
+  // padding: 20px 30px;
+}
+
+.full {
+  &height {
+    height: 100%;
+  }
+}

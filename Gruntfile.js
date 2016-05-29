@@ -33,7 +33,7 @@ module.exports = function ( grunt ) {
         map: false, // inline sourcemaps
         processors: [
           require( 'autoprefixer' )( { browsers: 'last 2 versions' } ),
-          require( 'cssnano' )
+          require( 'cssnano' )()
         ]
       },
       dist: {
@@ -42,7 +42,7 @@ module.exports = function ( grunt ) {
     },
     uglify: {
       options: {
-        mangle: false
+        mangle: false // set to true if you want your dist
       },
       build: {
         files: {

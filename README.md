@@ -1,14 +1,5 @@
-# Boilerplate v1.0
-I find myself doing the same thing over and over and over… so I decided to claim back some of my own time by building this as the first step to bootstrapping my way to my new personal site theme. It will also help me in my myriad other projects.
-
-## Installation
-Clone this repository as the basis of your new project.
-
-$npm install
-
-$bower install
-
-Remove the .git folder and then git init as a new project. You're good to go.
+# Flextra v1.0
+Flextra is a response to a requirement I found myself with on a few projects where I would need a single page full responsive layout without using too much JS. Flexboxgrid and Bootstrap just weren't doing it for me so I rolled a super simple version that I'll hopefully keep working on.
 
 ## License
 MIT
