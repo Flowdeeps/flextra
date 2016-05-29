@@ -22,8 +22,9 @@ h1 {
 
 .flex {
   display: flex;
+  flex-direction: row;
   &.vertical {
-    flex-direction: column; // default is row so we don't need to specify it
+    flex-direction: column;
     .centre,
     .center {
       flex-direction: column;
@@ -69,5 +70,8 @@ h3 {
 .full {
   &height {
     height: 100%;
+  }
+  &width {
+    width: 100%;
   }
 }

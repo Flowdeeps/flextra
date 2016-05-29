@@ -145,6 +145,7 @@ h1 {
 }
 .flex {
   display: flex;
+  flex-direction: row;
 }
 .flex.vertical {
   flex-direction: column;
@@ -193,4 +194,7 @@ h3 {
 }
 .fullheight {
   height: 100%;
+}
+.fullwidth {
+  width: 100%;
 }
